@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#424B72" />
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#424B72" />
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#424B72" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_4"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#424B72" />
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_5"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="58dp"
+            android:background="#424B72" />
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_6"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#424B72" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_7"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#424B72" />
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_8"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#424B72" />
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_9"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#424B72" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_10_cancel"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handleCancelKeyPressed"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#424B72" />
+
+        <org.techtown.pinnumbersample.view.NotoRegularTextView
+            android:id="@+id/key_11"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:gravity="center"
+            android:onClick="handlePressedKey"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+        <!--scaleType center로 지정하면 이미지를 스케일링하지 않음-->
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#424B72" />
+
+        <ImageView
+            android:id="@+id/key_12_delete"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/number_keypad_button_background_selector"
+            android:onClick="handleDeleteKeyPressed"
+            android:scaleType="center"
+            android:src="@drawable/kb_a" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#424B72" />
+
+</LinearLayout>
